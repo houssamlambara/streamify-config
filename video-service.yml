@@ -16,3 +16,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
+tmdb:
+  api:
+    key: 86a71221cb27150a0d3fd60336f7e008
+    base-url: https://api.themoviedb.org/3
+    image-base-url: https://image.tmdb.org/t/p/w500
